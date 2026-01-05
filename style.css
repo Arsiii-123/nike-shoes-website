@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color:#E10600;
+  color: white;
+}
+
+/* Header Section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.logo img {
+  width: 70px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffb3b3;
+}
+
+/* Main Section */
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 60px;
+}
+
+.content {
+  max-width: 500px;
+}
+
+.content h1 {
+  font-size: 55px;
+  margin-bottom: 30px;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.btn {
+  background-color: #ff7b7b;
+  color: white;
+  padding: 12px 35px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff4d4d;
+}
+
+/* Shoe Image */
+.image img {
+  width: 450px;
+  transition: transform 0.4s ease;
+}
+
+.image img:hover {
+  transform: scale(1.1);
+}
